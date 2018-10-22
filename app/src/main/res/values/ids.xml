@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="switch_img_x" type="id">switch_img_x</item>
+    <item name="switch_name_x" type="id">switch_name_x</item>
+    <item name="switch_item_x" type="id">switch_item_x</item>
+</resources>

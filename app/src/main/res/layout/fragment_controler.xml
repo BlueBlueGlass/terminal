@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="37dp"
+        android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="85dp"
+    android:id="@+id/car_go"
+    android:layout_height="85dp"
+    android:gravity="center"
+    android:background="@drawable/selector_controler">
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/left"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:id="@+id/car_back"
+        android:background="@drawable/selector_controler">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/right"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/kkk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:gravity="center"
+            android:id="@+id/car_left"
+            android:background="@drawable/selector_controler">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/up"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/car_right"
+            android:background="@drawable/selector_controler">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/down"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/kkk"
+        android:layout_alignBottom="@+id/kkk"
+        android:gravity="center"
+        android:id="@+id/car_duoji"
+        android:background="@drawable/selector_controler">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/bug"/>
+    </LinearLayout>
+</RelativeLayout>

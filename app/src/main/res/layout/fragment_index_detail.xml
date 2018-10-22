@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/index_detail"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA">
+
+    <include layout="@layout/weather_layout"/>
+
+    <LinearLayout
+        android:id="@+id/data_container"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <include layout="@layout/gas_data_item"/>
+        <include layout="@layout/humidity_data_item"/>
+        <include layout="@layout/temp_data_item"/>
+        <include layout="@layout/brightness_data_item"/>
+    </LinearLayout>
+  <LinearLayout
+      android:id="@+id/switch_layout_container"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="2"
+      android:layout_marginTop="10dp"
+      android:gravity="bottom"
+      android:layout_marginBottom="13dp"
+      android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/switch_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:focusable="true">
+    </LinearLayout>
+  </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
